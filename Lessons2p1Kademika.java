@@ -4,10 +4,10 @@ public class LessonsKademika {
 	public static void main (String[] args){
 		
 		String name="Oleg";
-		Hello(name);
+		helloSay(name);
 		}
 	
-		static void Hello(String name){
+		static void helloSay(String name){
 			
 			System.out.println("Hello "+name);
 		}
