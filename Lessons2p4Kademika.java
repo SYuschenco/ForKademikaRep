@@ -5,9 +5,7 @@ public class LessonsKademika {
 	public static void main (String[] args){
 		double m=10.0;
 		System.out.println(square(m));
-		
-		int n=100;
-		System.out.println(square(n));
+		System.out.println(square(4));
 		}
 	
 		static double square(double a){
@@ -15,10 +13,8 @@ public class LessonsKademika {
 			return n;
 		}
 		
-		@Override
-		static int square(int a){
-			int m = Math.pow(a, 2);
-			return m;
+		static double square(int a){
+			return a*a;
 		}
 
 }
